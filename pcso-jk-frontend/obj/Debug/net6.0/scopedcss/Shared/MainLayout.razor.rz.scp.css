@@ -27,14 +27,14 @@ main[b-wpti3ie56m] {
         text-decoration: none;
     }
 
-    .top-row[b-wpti3ie56m]  a:hover, .top-row[b-wpti3ie56m]  .btn-link:hover {
-        text-decoration: underline;
-    }
+        .top-row[b-wpti3ie56m]  a:hover, .top-row[b-wpti3ie56m]  .btn-link:hover {
+            text-decoration: underline;
+        }
 
-    .top-row[b-wpti3ie56m]  a:first-child {
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
+        .top-row[b-wpti3ie56m]  a:first-child {
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
 
 @media (max-width: 640.98px) {
     .top-row:not(.auth)[b-wpti3ie56m] {
@@ -68,11 +68,11 @@ main[b-wpti3ie56m] {
         z-index: 1;
     }
 
-    .top-row.auth[b-wpti3ie56m]  a:first-child {
-        flex: 1;
-        text-align: right;
-        width: 0;
-    }
+        .top-row.auth[b-wpti3ie56m]  a:first-child {
+            flex: 1;
+            text-align: right;
+            width: 0;
+        }
 
     .top-row[b-wpti3ie56m], article[b-wpti3ie56m] {
         padding-left: 2rem !important;
