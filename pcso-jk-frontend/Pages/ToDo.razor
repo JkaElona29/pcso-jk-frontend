@@ -6,6 +6,7 @@
 
 @if (todoList != null)
 {
+    
     @foreach (var todo in todoList)
     {
         <MudCard>
@@ -49,7 +50,7 @@
     private async void DeleteAll()
     {
         HttpClient httpClient = new HttpClient();
-        await httpClient.DeleteAsync("https://pcso-ali-backend.azurewebsites.net/todoitems");
+        await httpClient.DeleteAsync("https://pcso-jk-api.azurewebsites.net/todoitems");
         await GetListAsync();
         StateHasChanged();
     }
